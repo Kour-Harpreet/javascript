@@ -1,29 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>CSS Practice Mockup</title>
 
-    <!-- Set the character set, so the browser knows which character set should be loaded and valid for this webpage. -->
-    <meta charset="UTF-8">
+<head>
+  <meta charset="utf-8">
 
-    <!-- For modern responsive web development: -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro to JS</title>
+  <meta name="description" content="A basic introduction to the world of JavaScript.">
+  <meta name="author" content="TECHCareers">
 
-    <!-- Meta Data: -->
-    <meta name="description" content="A website without a real purpose, to demonstrate some CSS design.">
-    <meta name="author" content="James Grieve">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- keep the script in the header -->
+  <script src="js/scripts.js" defer></script>
 
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
 
-    <!-- Style(s): -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+<body>
+    <div class="container">
+        <header>
+            <h1>TECHCareers Image Gallery</h1>
+            <div>
+                <label for="search">Search:</label>
+                <input id="search" type="text">
+                <a id="clear" href="#">X</a>
+            </div>
 
-    <!-- Script(s): -->
-    <!-- defer attribute will cause this script to wait until the body is loaded before executing (important for DOM / element manipulation by scripts) -->
-    <!-- <script src="js/scripts.js" type="text/javascript" defer></script> -->
-  </head>
-  <body>
-      <a href="#">click me for fun!</a>
+        </header>
+        <main>
+            <img src="img/mountain-landscape.jpg"alt="A mountain landscape with a path." tags="#mountains #landscape #nature" >
+            <img src="img/mountain.jpg" alt="A road going into some hills." tags="#hills #road #clouds">
+            <img src="img/road.jpg"alt="A road on some pretty flat land (probably Saskatchewan)." tags="#road #flat #grass" >
+            <img src="img/puppy.jpg"alt="A road on some pretty flat land (probably Saskatchewan)." tags="#puppy #grass #cute" >
+            <img src="img/flower-kitten.webp" alt="A kitten playing with a flower." tags="#kitten #flower #cute">
+            <img src="img/fallout.jpg" alt="A suit of power armor from Fallout 4." tags="#gaming #armor #shiny">
+            <img src="img/stealth.jpg" alt="A blue sports car." tags="#car #blue">
+            
+        </main>
+    </div>
+   
+</body>
 
-  </body>
 </html> 
